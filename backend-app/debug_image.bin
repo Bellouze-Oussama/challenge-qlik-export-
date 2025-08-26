@@ -1,0 +1,25 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta http-equiv="X-UA-Compatible" content="ie=edge"/><link rel="shortcut icon" type="image/ico" href='/api/v1/brands/active/files/favIcon'/><style>.qmfe__mwc-root {
+      height: 100%;
+      margin: 0;
+    }
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border-width: 0;
+    }</style><script src="/qlik-embed/main.js" data-namespace="QlikMain"></script></head><body class="qmfe__mwc-root"><script type="module">// Devtool should be loaded anywhere except in production, if devtools=true in localstorage.
+    const isProdUrl = window.location.host.endsWith(".qlikcloud.com") || window.location.host.endsWith(".qlikcloudgov.com");
+    
+    // load devtool
+    const devtoolEnabled = window.localStorage.getItem("devtools") === "true";
+    if (devtoolEnabled && !isProdUrl) {
+      await QlikMain.import("@qmfe/devtool");
+    }
+    // start main qmfe parcel
+    const router = await QlikMain.import("@qmfe/router");
+    router.mount();</script></body></html>
